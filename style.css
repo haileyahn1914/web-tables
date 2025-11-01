@@ -1,0 +1,58 @@
+html {
+
+    h1 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        color: rgb(8, 88, 8); 
+    }
+}
+table {
+    border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+tbody td, th {
+    border: 1px solid black;
+}
+
+table, td, tr {
+    padding: 5px;
+    border-collapse: collapse;
+
+}
+
+tbody th {
+    background-color: bisque;
+    color: rgb(114, 49, 49);
+}
+
+thead th {
+    background-color: brown;
+    color: white;
+}
+
+table tbody tr:nth-child(1) td:nth-child(2) {
+    background-color: rgb(38, 131, 38); 
+    color: white; 
+}
+
+table tbody tr:nth-child(1) td:nth-child(5) {
+    background-color: rgb(38, 131, 38); 
+    color: white; 
+}
+
+table tbody tr:nth-child(1) td:nth-child(8) {
+    background-color: rgb(38, 131, 38); 
+    color: white; 
+}
+
+
+
+.columns {
+    column-count: 2;
+    column-rule: 1px solid black;
+    column-gap: 150px;
+}
+
+.columns h2 {
+    column-span: all;
+}
